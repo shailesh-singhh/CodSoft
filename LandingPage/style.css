@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color:#46211A;
+    color: #E7E8D1;
+}
+.hero img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+.section-heading {
+    text-align: center;
+    font-size: 2em;
+    color: #a75516;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #d4af37;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.content-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #f1d3b271;
+    border-radius: 1px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+.blog-cards, .service-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.contact-section {
+    background-color: #f1d3b26f;
+    color: rgb(174, 85, 26);
+    text-align: center;
+    padding: 50px;
+}
+.contact-section input, .contact-section textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px ;
+    border-radius: 5px;
+    border: none;
+}
+.contact-section button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #d4af37;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
